@@ -14,9 +14,12 @@ ________________________________________<br>
 •	1 Router (R1 – 2911 or equivalent)<br>
 •	1 PC (for console connection)<br>
 •	Console cable (RS-232 to Console)<br>
-________________________________________<br>
+
+_______________________________________<br>
 # Network Topology Diagram
-(Insert your Packet Tracer screenshot here showing Router R1 and PC with console connection)
+
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/c86b0615-1ca4-4068-8043-1243bc15baee" />
+
 ________________________________________
 # Procedure
 # Part 1: Verify the Default Router Configuration
@@ -79,11 +82,12 @@ ________________________________________
 •	To save configuration: copy running-config startup-config, wr, copy startup-config flash<br>
 ________________________________________
 # Output (Attach Screenshots)
-•	Console connection to router<br>
-•	Running configuration before and after<br>
-•	MOTD banner display<br>
-•	Password prompts<br>
-•	Saved configuration in NVRAM and flash<br>
+
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/178d8966-4605-4e10-b6e2-5df9f369f551" />
+
+<img width="1350" height="767" alt="image" src="https://github.com/user-attachments/assets/a082c645-c75a-42d5-be31-bd9a076593c8" />
+
+<img width="1364" height="768" alt="image" src="https://github.com/user-attachments/assets/0ea845d7-1baa-4d58-8e0d-04c00fa913a5" />
 ________________________________________
 # Result
 The router was successfully configured with hostname, banner, encrypted passwords, and secure console access. The configuration was verified and saved to NVRAM and flash, ensuring persistence across reboots.
